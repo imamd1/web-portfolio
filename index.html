@@ -16,11 +16,25 @@
           <a class="font-bold text-lg text-slate-600 block py-6">imamd</a>
       </div>
       <div class="flex items-center px-4">
-        <button id="hamburger" name="hamburger" type="button" class="block absolute right-4">
+        <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
           <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
           <span class="hamburger-line transition duration-300 ease-in-out"></span>
           <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
         </button>
+        <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+          <ul class="block lg:flex">
+            <li class="group">
+              <a href="#home" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-amber-900">Beranda</a>
+            </li>
+            <li class="group">
+              <a href="#about" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-amber-900">About Me</a>
+            </li>
+            <li class="group">
+              <a href="#home" class="text-base text-slate-900 py-2 mx-8 flex group-hover:text-amber-900">Portfolio</a>
+            </li>
+            
+          </ul>
+        </nav>
       </div>
     </div>
   </div>
@@ -66,6 +80,43 @@
    </div>
  </section>
  <!--About Section End-->
+
+ <!--Section Portfolio-->
+ <section id="portfolio" class="pt-36 pb-16 bg-slate-200">
+   <div class="container">
+     <div class="w-full px-4">
+       <div class="max-w-xl mx-auto text-center mb-16">
+         <h4 class="font-semibold text-lg mb-2 text-amber-900">Portfolio</h4>
+         <h2 class="font-bold text-3xl mb-4">Latest Project</h2>
+         <p class="font-medium text-md text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quos animi, ea consectetur voluptate sit dolorum eius perferendis quam tempora!</p>
+       </div>
+     </div>
+     <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+       <div class="mb-12 p-4 md:w-1/2">
+         <div class="rounded-md shadow-md overflow-hidden">
+           <img src="./dist/img/portfolio/1.jpg" alt="First Project" class="w-full">
+           <h3 class="font-semibold text-xl text-slate-900 mt-5 mb-3">My First Project</h3>
+           <p class="font-medium text-base text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, impedit?</p>
+         </div>
+       </div>
+       <div class="mb-12 p-4 md:w-1/2">
+        <div class="rounded-md shadow-md overflow-hidden">
+          <img src="./dist/img/portfolio/1.jpg" alt="First Project" class="w-full">
+          <h3 class="font-semibold text-xl text-slate-900 mt-5 mb-3">My First Project</h3>
+          <p class="font-medium text-base text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, impedit?</p>
+        </div>
+      </div>
+      <div class="mb-12 p-4 md:w-1/2">
+        <div class="rounded-md shadow-md overflow-hidden">
+          <img src="./dist/img/portfolio/1.jpg" alt="First Project" class="w-full">
+          <h3 class="font-semibold text-xl text-slate-900 mt-5 mb-3">My First Project</h3>
+          <p class="font-medium text-base text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, impedit?</p>
+        </div>
+      </div>
+     </div>
+   </div>
+ </section>
+ <!--Section Portfolio-->
 
 
  <script src="./dist/js/script.js"></script>
