@@ -1,5 +1,24 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.0.23"
-  }
+  },
+  "name": "web-portfolio",
+  "description": "",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "dependencies": {},
+  "scripts": {
+    "test": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/imamd1/web-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imamd1/web-portfolio/issues"
+  },
+  "homepage": "https://github.com/imamd1/web-portfolio#readme"
 }
